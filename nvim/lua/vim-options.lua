@@ -12,6 +12,7 @@ vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 -- netrw options
 vim.g.netrw_winsize = 30
+vim.g.netrw_liststyle = 1
 -- cursor options 
 vim.api.nvim_set_hl(0, "Cursor", { fg = "black", bg = "red" })
 vim.api.nvim_set_hl(0, "iCursor", { fg = "white", bg = "red" })
